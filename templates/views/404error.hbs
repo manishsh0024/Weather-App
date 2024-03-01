@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headlink}}
+</head>
+<body>
+    {{>navbar}}
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto"  >
+                <div class="row">
+                    <!-- Left-side-div -->
+                    <div class="col-md-12 col-12 main_header_left align-items-center ">
+                        <figure class="err-img">
+                            <img src="https://4kwallpapers.com/images/wallpapers/404-error-404-not-10000x6000-9410.jpg" alt="Weather" class="img-fluid" title="404 Page Not found">
+                        </figure>
+                        <p>Welcome to <span class="text_clr">ERROR</span> World</p>
+                        <h1 style="color: red; font-size:3rem;">{{errormsg}}</h1>
+                        <a href="/"><button>GO BACK</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+</body>
+</html>
