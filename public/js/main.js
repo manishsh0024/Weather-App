@@ -78,6 +78,6 @@ var months = [
 
 const date = new Date()
 dayname.innerHTML = getCurrentDay();
-todayDate.innerHTML = `${date.getDate()}-${months[date.getMonth()+1]}`;
+todayDate.innerHTML = `${date.getDate()}-${months[date.getMonth()]}`;
 
 submitbtn.addEventListener('click',getinfo);
