@@ -4,8 +4,8 @@
   "description": "weather App",
   "main": "index.js",
   "scripts": {
-    "build": "your-build-command",
     "start": "node index.js",
+    "build": "your-build-command",
     "test": "jest"
   },
   "author": "Manish Sharma",
